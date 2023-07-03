@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const backendUrl ='http://localhost:4000/api/text'
+const backendUrl ='https://rich-pink-panda-wear.cyclic.app/api/text'
 
 const TextArea = () => {
   const [textFeild, setTextFeild] = useState("");

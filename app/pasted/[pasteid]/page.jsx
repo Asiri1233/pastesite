@@ -15,7 +15,7 @@ export default function ExampleClientComponent() {
 
   const fetchPaste = async () => {
     try {
-      const response = await axios.get(`http://localhost:4000/api/text/${id}`)
+      const response = await axios.get(`https://rich-pink-panda-wear.cyclic.app/api/text/${id}`)
       const data = response.data
       setData(data)
     } catch (error) {
