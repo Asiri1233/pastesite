@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { toast } from "react-hot-toast";
 
 const backendUrl ='https://rich-pink-panda-wear.cyclic.app/api/text'
 
@@ -27,6 +28,7 @@ const TextArea = () => {
             redirectToPastedText(id)
             console.log(result);
             setTextFeild("");
+            toast.success("Please wait..")
           }
         
     } catch (error) {
@@ -41,7 +43,7 @@ const TextArea = () => {
   return (
     <div className="">
     <textarea
-        className="outline-none border  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md  border-white shadow-md rounded placeholder:text-black w-[100%] md:min-w-[50rem] sm:min-w-[40rem] min-w-[20rem] font-semibold"
+        className="outline-none border  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md  border-white shadow-md rounded placeholder:text-white text-white w-[100%] md:min-w-[50rem] sm:min-w-[40rem] min-w-[20rem] font-semibold"
         placeholder="Paste your text here"
         rows={10}
         type="text"
@@ -50,7 +52,7 @@ const TextArea = () => {
       />
 
       <div>
-        <button className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" onClick={pasteText}>
+        <button className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" onClick={pasteText}>
           Paste
         </button>
       </div>
