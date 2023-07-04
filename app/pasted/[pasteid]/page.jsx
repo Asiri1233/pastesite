@@ -46,12 +46,14 @@ export default function ExampleClientComponent() {
             <textarea
               readOnly
               ref={textareaRef}
-              value="Loading..."
+              value="Loading Please Wait..."
               rows={20}
-              className="outline-none border bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md border-white shadow-md rounded placeholder:text-white md:min-w-[50rem] sm:min-w-[40rem] min-w-[20rem] text-gray-300"
-            ></textarea>
+              className="outline-none border bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md border-white shadow-md rounded placeholder:text-white md:min-w-[50rem] sm:min-w-[40rem] min-w-[20rem] text-gray-300 animate-pulse"
+            >
+            
+            </textarea>
             <div className='flex items-center gap-7 mt-2'>
-              <button className='text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Copy to clipboard</button>
+              <button className='text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Copy</button>
               <div className='flex items-center hover:cursor-pointer'>
                 <FiCopy className="mr-2" />
                 <input type="text" value="Loading" readOnly className='outline-none hover:cursor-pointer bg-transparent text-gray-300 ' />
