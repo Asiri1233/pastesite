@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link href="/" className="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="/logo.svg"
               className="h-8 mr-3"
               alt="Flowbite Logo"
             />
