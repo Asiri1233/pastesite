@@ -79,6 +79,7 @@ export default function ExampleClientComponent() {
           <Banners url="https://i.imgur.com/gyoAm7J.jpeg" link="https://pixelmp.store" />
           <Banners url="https://i.imgur.com/gyoAm7J.jpeg" link="https://pixelmp.store" />
         </div>
+        
       </div>
       <div className='flex justify-center'>
         <div className='flex flex-col'>
@@ -96,6 +97,10 @@ export default function ExampleClientComponent() {
               <input type="text" value={shareableLink} readOnly className='outline-none hover:cursor-pointer bg-transparent text-gray-300 ' />
             </div>
           </div>
+            
+          <p className='text-white text-center font-semibold border border-dotted outline-none  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md border-white shadow-md rounded'>
+          ✨ARE YOU TIRED OF FALLING TO <span className='animate-pulse text-red-400'>SCAMS?</span> <br /> 🛑 LOOK NO FURTHER! 👀 DISCOVER THE MOST VOUCHED ✅ AND THE BEST SHOPS  <br /> 💎When you shop through PixelMP, you can enjoy a  30% discount at various participating stores. <br /> Don't forget to check the shop descriptions for discount codes. Visit 💎<a href="https://pixelmp.store/" target='_blank'>https://pixelmp.store/</a>💎 
+          </p>
         </div>
       </div>
     </div>
