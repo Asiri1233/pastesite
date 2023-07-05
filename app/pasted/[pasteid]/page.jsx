@@ -73,7 +73,7 @@ export default function ExampleClientComponent() {
   }
 
   return (
-    <div className="w-full h-[100vh] flex-col">
+    <div className="w-full h-[100%] flex-col">
       <div className="w-[100%] flex flex-row justify-center">
         <div className='flex gap-2 flex-col md:flex-row items-center justify-center mb-10'>
           <Banners url="https://i.imgur.com/gyoAm7J.jpeg" link="https://pixelmp.store" />
