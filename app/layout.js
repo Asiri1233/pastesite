@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-[url('https://images.unsplash.com/photo-1579800790234-cb5bd473ebe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80')] relative bg-cover ">
+        <div className="bg-[url('https://wallpaperaccess.com/full/173798.jpg')] relative bg-cover ">
         <div className='w-full mb-6'>
         <Navbar />
         </div>
