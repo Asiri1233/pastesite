@@ -43,7 +43,7 @@ const TextArea = () => {
   return (
     <div className="">
     <textarea
-        className="outline-none border  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md  border-white shadow-md rounded placeholder:text-white text-white w-[100%] md:min-w-[50rem] sm:min-w-[40rem] min-w-[20rem] font-semibold"
+        className="outline-none border  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md  border-white shadow-md rounded placeholder:text-white placeholder:text-center text-white w-[100%] md:min-w-[50rem] sm:min-w-[40rem] min-w-[20rem] font-semibold placeholder:mt-4"
         placeholder="Paste your text here"
         rows={10}
         type="text"

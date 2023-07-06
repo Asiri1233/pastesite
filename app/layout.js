@@ -12,12 +12,12 @@ export const metadata = {
   title: 'PasteFree',
   description: "Pasting website for G's",
 }
-
+//
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-[url('https://wallpaperaccess.com/full/173798.jpg')] relative bg-cover ">
+        <div className="bcImage ">
         <div className='w-full mb-6'>
         <Navbar />
         </div>
