@@ -37,8 +37,8 @@ export default function ExampleClientComponent() {
       <div className="w-full h-[100vh] flex-col">
         <div className="w-[100%] flex flex-row justify-center mb-10">
           <div className='flex gap-2 flex-col md:flex-row items-center justify-center'>
-            <Banners url="https://media.discordapp.net/attachments/1120293123185193051/1126475346607341628/Reds_new_gif.gif" link="https://t.me/RedMarkets" />
             <Banners url="https://media.discordapp.net/attachments/1106796662170591353/1126278898129305650/image.png" link="https://pixelmp.store"/>
+            <Banners url="https://media.discordapp.net/attachments/1120293123185193051/1126475346607341628/Reds_new_gif.gif" link="https://t.me/RedMarkets" />
           </div>
         </div>
         <div className='flex justify-center'>

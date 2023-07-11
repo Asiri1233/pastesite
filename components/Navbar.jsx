@@ -20,7 +20,7 @@ const Navbar = () => {
               alt="Flowbite Logo"
             />
             <span  className="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-white">
-              PasteFree
+              Pasted
             </span>
           </Link>
           <button
