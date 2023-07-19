@@ -44,7 +44,7 @@ export default function ExampleClientComponent() {
             link="https://t.me/RedMarkets"
             />
             <Banners
-              url="https://media.discordapp.net/attachments/1120293123185193051/1126475346607341628/Reds_new_gif.gif"
+              url="https://media.discordapp.net/attachments/1120293123185193051/1130938223238074540/With_the_long_info.gif?width=1440&height=303"
               link="https://t.me/RedMarkets"
             />
           </div>
@@ -94,8 +94,8 @@ export default function ExampleClientComponent() {
             link="https://t.me/RedMarkets"
           />
           <Banners
-            url="https://media.discordapp.net/attachments/1106796662170591353/1126278898129305650/image.png"
-            link="https://pixelmp.store"
+            url="https://media.discordapp.net/attachments/1120293123185193051/1130938223238074540/With_the_long_info.gif?width=1440&height=303"
+            link="https://t.me/RedMarkets"
           />
         </div>
       </div>
