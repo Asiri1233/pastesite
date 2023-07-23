@@ -17,7 +17,7 @@ const Navbar = () => {
             <img
               src="/logo.svg"
               className="h-8 mr-3"
-              alt="Flowbite Logo"
+              alt="Logo"
             />
             <span  className="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-white">
               Pasted
