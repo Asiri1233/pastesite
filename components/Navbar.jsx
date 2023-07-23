@@ -72,12 +72,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <Link
-                  href="/"
+                <a
+                  target='_blank'
+                  href="https://leakedfans.xyz"
                   className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 text-white md:p-0"
                 >
-                  Stats
-                </Link>
+                  Free OnlyFans Videos
+                </a>
               </li>
               <li>
                 <a
