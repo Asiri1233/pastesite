@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script async src="https://umaminext.vercel.app/script.js" data-website-id="85f15c21-dc7b-442c-9ce9-c5c163e246c0"></script>
+      <script async src="https://umamiupdate-vu9i.vercel.app/script.js" data-website-id="20fc790d-1d17-48be-ac57-8974d18301a2"></script>
       </head>
       <body className={inter.className}>
         <div className="bcImage ">
