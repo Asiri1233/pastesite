@@ -41,30 +41,31 @@ export default function ExampleClientComponent() {
           <div className="flex gap-2 flex-col md:flex-row items-center justify-center">
             <Banners
               url="https://cdn.discordapp.com/attachments/1120293123185193051/1127666682257756180/10_sec_rev.gif"
-            link="https://t.me/RedMarkets"
+              link="https://t.me/RedMarkets"
             />
             <Banners
-              url="https://media.discordapp.net/attachments/1120293123185193051/1130938223238074540/With_the_long_info.gif?width=1440&height=303"
+              url="https://cdn.discordapp.com/attachments/1095467316642320387/1138763357265076245/redshopV1.gif"
               link="https://t.me/RedConsumer"
             />
           </div>
         </div>
         <div className="flex justify-center">
           <div className="flex flex-col">
-          <div>
-          <p className="text-white text-center font-semibold border border-dotted outline-none  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md border-white shadow-md rounded">
-            ✨ARE YOU TIRED OF FALLING TO{" "}
-            <span className="animate-pulse text-red-400">SCAMS?</span> <br /> 🛑
-            LOOK NO FURTHER! 👀 DISCOVER THE MOST VOUCHED ✅ AND THE BEST SHOPS{" "}
-            <br /> 💎When you shop through PixelMP, you can enjoy a 30% discount
-            at various participating stores. <br /> Don't forget to check the
-            shop descriptions for discount codes. Visit 💎
-            <a href="https://pixelmp.store/" target="_blank">
-              https://pixelmp.store/
-            </a>
-            💎
-          </p>
-          </div>
+            <div>
+              <p className="text-white text-center font-semibold border border-dotted outline-none  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md border-white shadow-md rounded">
+                ✨ARE YOU TIRED OF FALLING TO{" "}
+                <span className="animate-pulse text-red-400">SCAMS?</span>{" "}
+                <br /> 🛑 LOOK NO FURTHER! 👀 DISCOVER THE MOST VOUCHED ✅ AND
+                THE BEST SHOPS <br /> 💎When you shop through PixelMP, you can
+                enjoy a 30% discount at various participating stores. <br />{" "}
+                Don't forget to check the shop descriptions for discount codes.
+                Visit 💎
+                <a href="https://pixelmp.store/" target="_blank">
+                  https://pixelmp.store/
+                </a>
+                💎
+              </p>
+            </div>
             <textarea
               readOnly
               ref={textareaRef}
@@ -115,19 +116,19 @@ export default function ExampleClientComponent() {
       </div>
       <div className="flex justify-center">
         <div className="flex flex-col">
-        <div>
-          <p className="text-white text-center font-semibold border border-dotted outline-none  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md border-white shadow-md rounded">
-            ✨ARE YOU TIRED OF FALLING TO{" "}
-            <span className="animate-pulse text-red-400">SCAMS?</span> <br /> 🛑
-            LOOK NO FURTHER! 👀 DISCOVER THE MOST VOUCHED ✅ AND THE BEST SHOPS{" "}
-            <br /> 💎When you shop through PixelMP, you can enjoy a 30% discount
-            at various participating stores. <br /> Don't forget to check the
-            shop descriptions for discount codes. Visit 💎
-            <a href="https://pixelmp.store/" target="_blank">
-              https://pixelmp.store/
-            </a>
-            💎
-          </p>
+          <div>
+            <p className="text-white text-center font-semibold border border-dotted outline-none  bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md border-white shadow-md rounded">
+              ✨ARE YOU TIRED OF FALLING TO{" "}
+              <span className="animate-pulse text-red-400">SCAMS?</span> <br />{" "}
+              🛑 LOOK NO FURTHER! 👀 DISCOVER THE MOST VOUCHED ✅ AND THE BEST
+              SHOPS <br /> 💎When you shop through PixelMP, you can enjoy a 30%
+              discount at various participating stores. <br /> Don't forget to
+              check the shop descriptions for discount codes. Visit 💎
+              <a href="https://pixelmp.store/" target="_blank">
+                https://pixelmp.store/
+              </a>
+              💎
+            </p>
           </div>
           <textarea
             readOnly
