@@ -109,7 +109,7 @@ export default function ExampleClientComponent() {
             link="https://t.me/RedMarkets"
           />
           <Banners
-            url="https://media.discordapp.net/attachments/1120293123185193051/1130938223238074540/With_the_long_info.gif?width=1440&height=303"
+            url="https://cdn.discordapp.com/attachments/1095467316642320387/1138763357265076245/redshopV1.gif"
             link="https://t.me/RedConsumer"
           />
         </div>
