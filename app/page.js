@@ -12,7 +12,7 @@ const page = () => {
             link="https://t.me/RedMarkets"
           />
           <Banners
-            url="https://i.imgur.com/sWHEbMR.jpg"
+            url="https://s5.gifyu.com/images/SRv6L.gif"
             link="https://t.me/stakebets"
           />
         </div>
