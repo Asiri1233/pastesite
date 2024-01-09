@@ -103,8 +103,8 @@ export default function ExampleClientComponent() {
       <div className="w-[100%] flex flex-row justify-center">
         <div className="flex gap-2 flex-col md:flex-row items-center justify-center mb-10">
           <Banners
-            url="https://cdn.discordapp.com/attachments/1120293123185193051/1127666682257756180/10_sec_rev.gif"
-            link="https://t.me/RedMarkets"
+            url="https://i.imgur.com/y8lOM4d.jpg)"
+            link="https://t.me/plugmeme"
           />
           <Banners
             url="https://s5.gifyu.com/images/SRv6L.gif"
