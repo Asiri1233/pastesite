@@ -107,8 +107,8 @@ export default function ExampleClientComponent() {
             link="https://t.me/plugmeme"
           />
           <Banners
-            url="https://s5.gifyu.com/images/SRv6L.gif"
-            link="https://t.me/stakebets"
+            url="https://i.ibb.co/jTPcsmM/ezgif-com-resize.gif"
+            link="https://t.me/redmarkets"
           />
         </div>
       </div>
