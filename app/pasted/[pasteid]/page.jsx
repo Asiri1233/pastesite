@@ -44,8 +44,8 @@ export default function ExampleClientComponent() {
               link="https://t.me/RedMarkets"
             />
             <Banners
-              url="https://s5.gifyu.com/images/SRv6L.gif"
-              link="https://t.me/stakebets"
+              url="https://cdn.discordapp.com/attachments/1120293123185193051/1127666682257756180/10_sec_rev.gif"
+              link="https://t.me/RedMarkets"
             />
           </div>
         </div>
