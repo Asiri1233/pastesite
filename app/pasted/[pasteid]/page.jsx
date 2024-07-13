@@ -104,7 +104,7 @@ export default function ExampleClientComponent() {
         <div className="flex gap-2 flex-col md:flex-row items-center justify-center mb-10">
           <Banners
             url="https://i.imgur.com/y8lOM4d.jpg)"
-            link="https://t.me/plugmeme"
+            link="https://t.me/memeshopnew"
           />
           <Banners
             url="https://i.ibb.co/jTPcsmM/ezgif-com-resize.gif"
